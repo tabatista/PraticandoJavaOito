@@ -43,6 +43,14 @@ public class Stream {
         //OBS.: a lista original nao eh modificada pelo stream
 
         //idealmente eh melhor fazer os filtros antes do map -- embora o stream tenha a inteligencia de filtrar antes do map, porem eh bom deixar legivel a ordem ideal
+
+        //OPERACOES INTERMEDIARIAS [filtros primeiros]
+        // skip, limit, distinct, filter, map
+
+        //OPERACOES FINAIS
+        // count, min e max
+        // collect: toList, groupingBy, joining
+
     }
 
     public static void print(Object text) {
